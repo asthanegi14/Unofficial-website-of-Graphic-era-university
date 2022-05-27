@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    </head>
+    
+    <body>
+        <section class=" sub-header">
+        <nav>
+            <img src="images/logo.png" alt="LOGO">
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+    
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="courses.html">COURSES</a>
+                    </li>
+                    <li>
+                        <a href="admission.html">ADMISSION</a>
+                    </li>
+                    <li>
+                        <a href="academic.html">ACADEMICS</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!----------about us-------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <p>Home > About</p>
+                <h1>Transforming dreams into reality</h1>
+                <p>
+                    In 1993 a young man with just twenty nine thousand and loads of determination embarked on a mission
+                    to transform the higher education landscape of the Doon valley. Graphic Era Deemed to be University
+                    is the culmination of the vision of its founder, Prof (Dr) Kamal Ghanshala, who had the dream to
+                    change the destiny of thousands of youth, through quality and holistic education and his vision took
+                    a concrete shape in the form of Graphic Era Institute in 1996.
+
+                    In 2008, the Institute was accorded the status of Deemed University under Section 3 of the UGC Act,
+                    1956 vide Notification F.9-48/2007-U.3 (A) dated August 14, 2008 and approved by Ministry of Human
+                    Resource Development, Government of India. In 2015 Graphic Era University was accredited by NAAC
+                    with grade ‘A’.
+
+                    University has acquired transnational dimensions through student exchange and knowledge sharing
+                    programs with many foreign universities and has been acclaimed and honored at international forums
+                    for its brilliance in upholding the highest standards of education. With recognition from
+                    prestigious institutions, Graphic Era University is setting new benchmarks in education. It has
+                    taken big initiative in engineering programs by getting into Partnerships with Tata Technologies and
+                    IBM to create next age Engineering Professionals through Industry Collaborations. Graphic Era hosts
+                    Technology Business Incubator that provides support for technology-based entrepreneurship. At
+                    present, Graphic Era has innumerable students on its rolls, pursuing education in different
+                    disciplines, ranging from engineering, science, business, management, commerce, hospitality to
+                    humanities and social sciences. The alumni of Graphic Era can be encountered worldwide in marquee
+                    brands like Apple, Google, Microsoft, HSBC, to name a few and in the service of the nation in all
+                    wings of the Armed forces.
+
+                    Graphic Era (Deemed to be University) has been conferred All-India NIRF Rank 75 in the Engineering
+                    Category, thus being accorded as the highest-ranked Engineering University in Uttarakhand, after IIT
+                    Roorkee, in the MHRD NIRF (National Institutional Ranking Framework) Rankings in Septemeber 2021.
+                    The University has also been awarded All India Rank 98 in the University Category and All India Rank
+                    64 in Management Category, establishing GEU as the highest-ranked university in Uttarakhand amongst
+                    all Government and Private universities in the state.
+
+                    GEU stands proud as the only university in Uttarakhand recognized as one among the top 100
+                    Universities of the country, as an abode of learning and excellence, surpassing all parameters of
+                    assessment like teachi.
+                    ng, learning, research, graduation outcome, outreach, industrial presence and more for Indian
+                    Institutions of higher education.
+                </p>
+                <a href="https://www.geu.ac.in/content/geu/en/about.html" class="web red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/certi1.jpeg" alt="certi1">
+                <img src="images/certi2.jpg" alt="certi2">
+            </div>
+    </section>
+
+
+    <section class="contact">
+        <h1>For any query please click on below botton </h1>
+        <a href="contact.html" class="web">CONTACT US</a>
+    </section>
+
+
+    
+    <!----------footer---------->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are here to help you. <br> Just feel free to ask anything.</p>
+        
+        <div class="icons">
+            <nav>
+            <a href="https://www.facebook.com/geuofficial/" target="_blank">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com/GEU_Official" target="_blank">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/school/graphic-era-official" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.youtube.com/GraphicEraOfficial" target="_blank">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/geuofficial/" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </nav>
+        </div>
+        <div class="tour">
+            <a href="https://www.geu.ac.in/content/geu/en/about/360-tour.html">
+                <img class="img-responsive" src="https://www.geu.ac.in/content/dam/geu/virtualTour.PNG
+        " alt="360 view"> </a>
+        </div>
+        <p>Made with <i class="bi bi-heart"></i> By Astha Negi</p>
+    </section>
+
+
+
+
+
+    <!--Java for toggle Menu-->
+
+
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
