@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/academics.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrdZLBGcm9gtzib2Mk3Jl9pDuSPCRuX-ndaw&usqp=CAU);
     background-position: center ;
     background-size: cover;
 }
@@ -345,7 +345,7 @@ h3{
 .contact{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/gehu-dehradun\ pic.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://images.shiksha.com/mediadata/images/1576563781phpQj94TQ.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -389,19 +389,13 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
-.footer tour {
-    font-size: 14px;
+.tour {
     color: #000000;
     display: inline-block;
     vertical-align: middle;
 }
-.footer icon{
+.icons{
     color: #000000;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
-    padding-left: 16%;
-    margin: 0px 0px 25px;
 }
 .footer nav .bi{
     color: #000000;
@@ -676,6 +670,3 @@ table {
       border: 1px solid #ccc;
       box-sizing: border-box;
   }
-
-
-  
