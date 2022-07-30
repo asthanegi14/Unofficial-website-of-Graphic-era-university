@@ -608,7 +608,7 @@ h3 {
 .admission-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/Admissions-and-Aid.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQebu53QiVYlMXWdhPnyAssbFy1YEfEDXdbaA&usqp=CAU");
     background-position: center;
     background-size: cover;
     text-align: center;
