@@ -588,7 +588,7 @@ h3 {
 .academic-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/academics1.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://www.geu.ac.in/content/dam/geu/Image-Galleries/events/2018/dec/convocation/9th-convocation-graphic-era-deemed-to-be-university-%20(11).jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
