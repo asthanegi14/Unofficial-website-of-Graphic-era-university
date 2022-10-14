@@ -94,7 +94,7 @@ nav .bi {
         transform: scale(1);
     }
 }
-
+/* 
 span {
     display: inline-block;
     opacity: 0;
@@ -391,7 +391,7 @@ span:nth-child(71) {
         filter: blur(0);
     }
 }
-
+ */
 .MainHeading {
     margin: auto;
     color: white;
