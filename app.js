@@ -1,4 +1,3 @@
-console.log("hi");
 var words = ['Graphic Era Deemded To be University ','Graphic Era Hill University Dehradun', 'Graphic Era Hill University Bheemtal', 'Graphic Era Hill University Haldwani'],
     part,
     i = 0,
